@@ -1,0 +1,613 @@
+@charset "UTF-8";
+/*=======================================
+Font: WorkSans,Lora
+Color: #fff / #000
+=======================================*/
+@font-face {
+  font-family: WorkSans-SemiBold;
+  src: url("../fonts/WorkSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: Lora-SemiBold;
+  src: url("../fonts/Lora-SemiBold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+h2 {
+  font-family: Lora-SemiBold;
+  font-size: 9rem;
+}
+
+p {
+  font-family: WorkSans-SemiBold;
+}
+
+button {
+  border: 1px solid #fff;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1vh 1vw;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/*======================================
+            header
+======================================*/
+header {
+  background-color: #000;
+  color: #fff;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+header .line {
+  width: 20vw;
+  height: 25vh;
+}
+header article {
+  width: 30vw;
+  margin: 15vh auto 0 auto;
+}
+header article p {
+  font-size: 1.5rem;
+  margin: 2vh 0;
+}
+header article h1 {
+  font-family: Lora-SemiBold;
+  font-size: 9rem;
+  line-height: 8vh;
+}
+header article h1 span {
+  font-family: Lora-SemiBold;
+  font-size: 9rem;
+  color: black;
+  -webkit-text-stroke: 1px white;
+}
+header .bear__btn {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  /*======================================
+              section 1
+              text & facts
+  ======================================*/
+  /*======================================
+          section 2
+          stuck in the middle
+  ======================================*/
+  /*======================================
+          section 3
+          the golden bear
+  ======================================*/
+  /*======================================
+          section 4
+          the poppy bear
+  ======================================*/
+}
+main #text__and__facts {
+  background-color: #000;
+  position: relative;
+}
+main #text__and__facts article {
+  width: 51vw;
+  padding: 10vh 0;
+  margin-left: 10vw;
+}
+main #text__and__facts article p {
+  color: #fff;
+  font-size: 8.8rem;
+  word-spacing: 15px;
+}
+main #text__and__facts article:nth-of-type(2) {
+  display: flex;
+  margin-top: 14vh;
+  /*
+  ! bild ist nicht unter schrift
+  */
+}
+main #text__and__facts article:nth-of-type(2) .text {
+  font-family: WorkSans-SemiBold;
+  font-size: 2rem;
+  margin-bottom: 1vh;
+}
+main #text__and__facts article:nth-of-type(2) .number {
+  font-family: Lora-SemiBold;
+  font-size: 7rem;
+  margin-bottom: 17vh;
+}
+main #text__and__facts article:nth-of-type(2) img {
+  width: 83%;
+  transform: translate(64%, -36%);
+}
+main #stuck__in__the__middle .first__pic {
+  width: 500px;
+  height: auto;
+  transform: translate(210%, -35%);
+}
+main #stuck__in__the__middle .pic__text {
+  height: 60vh;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+  /*
+  ! code für bilder ist nicht gut
+  */
+}
+main #stuck__in__the__middle .pic__text img {
+  width: 350px;
+  height: 220px;
+}
+main #stuck__in__the__middle .pic__text img:nth-of-type(1) {
+  margin-left: 5vw;
+}
+main #stuck__in__the__middle .pic__text img:nth-of-type(2) {
+  margin-top: 60vh;
+}
+main #stuck__in__the__middle .pic__text div {
+  width: 30%;
+}
+main #stuck__in__the__middle .pic__text div h2 {
+  line-height: 9vh;
+  margin-top: 30vh;
+}
+main #stuck__in__the__middle .pic__text div p {
+  font-size: 1.8rem;
+  margin-top: 5vh;
+  line-height: 4vh;
+}
+main #stuck__in__the__middle .only__pics {
+  margin-top: 50vh;
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+}
+main #stuck__in__the__middle .only__pics img {
+  width: 500px;
+  height: 300px;
+}
+main #stuck__in__the__middle .only__pics img:nth-of-type(2) {
+  margin-top: 15vh;
+}
+main #stuck__in__the__middle .pic-left__text {
+  margin-top: 40vh;
+  display: flex;
+}
+main #stuck__in__the__middle .pic-left__text img {
+  width: 350px;
+  height: 220px;
+}
+main #stuck__in__the__middle .pic-left__text p {
+  width: 31vw;
+  font-size: 2rem;
+  line-height: 4vh;
+  margin: 10vh 0 0 18vw;
+}
+main #the-golden-bear {
+  height: 150vh;
+  background-color: #000;
+}
+main #the-golden-bear article {
+  margin: 20vh 0;
+  display: flex;
+  justify-content: space-around;
+}
+main #the-golden-bear article div p {
+  font-size: 2rem;
+  color: white;
+}
+main #the-golden-bear article div h2 {
+  color: #fff;
+  width: 10vw;
+}
+main #the-golden-bear article div:nth-of-type(2) {
+  width: 20vw;
+}
+main #the-golden-bear article div:nth-of-type(2) p {
+  font-family: Lora-SemiBold;
+  font-size: 3.5rem;
+  width: 27vw;
+}
+main #the-golden-bear article div:nth-of-type(2) p:nth-of-type(2) {
+  font-family: WorkSans-SemiBold;
+  margin-top: 5vh;
+  font-size: 2rem;
+}
+main #the-golden-bear .pics {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  margin: 5vh auto 0 auto;
+  padding-bottom: 10vh;
+}
+main #the-golden-bear .pics img {
+  width: 800px;
+  margin-left: -4vw;
+}
+main #the-golden-bear .pics img:nth-of-type(2) {
+  position: relative;
+  z-index: 1;
+  height: 550px;
+  width: 450px;
+  margin-top: 20vh;
+}
+main #the-poppy-bear {
+  position: relative;
+  overflow: hidden;
+}
+main #the-poppy-bear .rotate {
+  position: absolute;
+  right: -7%;
+  bottom: 80%;
+  width: 35vw;
+  animation: rotatePic 10s infinite linear;
+}
+@keyframes rotatePic {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+main #the-poppy-bear article {
+  margin-top: 40vh;
+  padding: 20vh 0;
+  display: flex;
+  justify-content: space-around;
+}
+main #the-poppy-bear article div p {
+  font-size: 2rem;
+}
+main #the-poppy-bear article div h2 {
+  width: 10vw;
+}
+main #the-poppy-bear article div:nth-of-type(2) {
+  width: 20vw;
+}
+main #the-poppy-bear article div:nth-of-type(2) p {
+  font-family: Lora-Regular;
+  font-size: 3.5rem;
+  width: 25vw;
+}
+main #the-poppy-bear article div:nth-of-type(2) p:nth-of-type(2) {
+  font-family: WorkSans-SemiBold;
+  font-size: 2rem;
+  margin-top: 5vh;
+}
+main #the-poppy-bear .pics__two {
+  width: 60vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 5vh auto 0 auto;
+  padding-bottom: 30vh;
+}
+main #the-poppy-bear .pics__two img {
+  width: 800px;
+  height: 800px;
+  margin-right: -4vw;
+}
+main #the-poppy-bear .pics__two img:nth-of-type(2) {
+  height: 550px;
+  width: 450px;
+  margin-top: 20vh;
+}
+
+/*======================================
+        footer
+======================================*/
+footer {
+  overflow: hidden;
+  position: relative;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+}
+footer .text__left {
+  width: 24vw;
+  color: #fff;
+  margin: 15vh 0 0 10vw;
+}
+footer .text__left p {
+  font-size: 2rem;
+  margin-bottom: 4vh;
+}
+footer .text__left p:nth-of-type(2) {
+  font-family: Lora-SemiBold;
+  font-size: 3rem;
+  margin-bottom: 4vh;
+}
+footer .text__left button {
+  margin-bottom: 10vh;
+}
+footer .text__left div {
+  margin-bottom: 1vh;
+}
+footer .text__left div img {
+  width: 30px;
+}
+footer .text__left div img:nth-of-type(2) {
+  margin: 0 1vw;
+}
+footer article {
+  margin-right: 8vw;
+  margin-bottom: 7vh;
+}
+footer article img {
+  width: 130px;
+}
+footer .moving__text {
+  position: absolute;
+  right: -45%;
+  top: 40%;
+  background-color: #fff;
+  height: 8vh;
+  width: 120vw;
+  transform: skew(-40deg, 40deg);
+}
+footer .moving__text p {
+  font-family: Lora-SemiBold;
+  font-size: 5rem;
+  animation: textToLeftAndRight 10s infinite linear;
+}
+@keyframes textToLeftAndRight {
+  0% {
+    transform: translate(0%);
+  }
+  50% {
+    transform: translate(30%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+footer .moving__text p span {
+  font-size: 5rem;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+}
+
+/*
+*======================================
+            breakpoints
+*======================================
+*/
+@media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 4rem;
+  }
+  /*======================================
+                  header
+  ======================================*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .line {
+    margin: 0 auto;
+    height: 15vh;
+  }
+  header article {
+    width: 50vw;
+  }
+  header article h1 {
+    font-size: 3rem;
+  }
+  header article h1 span {
+    font-size: 3rem;
+  }
+  main {
+    /*======================================
+                    section 1
+                    text & facts
+    ======================================*/
+    /*======================================
+                    section 2
+                    stuck in the middle
+    ======================================*/
+    /*======================================
+                    section 3
+                    the golden bear
+    ======================================*/
+    /*======================================
+                    section 4
+                    the poppy bear
+    ======================================*/
+  }
+  main #text__and__facts article {
+    width: 70%;
+    margin: 0 auto;
+  }
+  main #text__and__facts article p {
+    font-size: 3rem;
+    text-align: center;
+  }
+  main #text__and__facts article:nth-of-type(2) {
+    flex-direction: column;
+  }
+  main #text__and__facts article:nth-of-type(2) div {
+    width: 60%;
+    margin: 0 auto 0 auto;
+  }
+  main #text__and__facts article:nth-of-type(2) div .text {
+    font-size: 1.5rem;
+  }
+  main #text__and__facts article:nth-of-type(2) div .number {
+    font-size: 4rem;
+  }
+  main #text__and__facts article:nth-of-type(2) img {
+    opacity: 0.5;
+    width: 63%;
+    transform: translate(52%, -26%);
+  }
+  main #stuck__in__the__middle {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #stuck__in__the__middle .first__pic {
+    width: 50vw;
+    transform: translate(0, -20%);
+  }
+  main #stuck__in__the__middle .pic__text {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  main #stuck__in__the__middle .pic__text img {
+    width: 50vw;
+  }
+  main #stuck__in__the__middle .pic__text img:nth-of-type(1) {
+    margin: 0;
+  }
+  main #stuck__in__the__middle .pic__text img:nth-of-type(2) {
+    margin: 5vh auto 0 auto;
+  }
+  main #stuck__in__the__middle .pic__text div {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+  }
+  main #stuck__in__the__middle .pic__text div h2 {
+    margin-top: 7vh;
+    line-height: 5vh;
+  }
+  main #stuck__in__the__middle .pic__text div p {
+    font-size: 1.5rem;
+  }
+  main #stuck__in__the__middle .only__pics {
+    flex-direction: column;
+    margin-top: 19vh;
+  }
+  main #stuck__in__the__middle .only__pics img {
+    width: 50vw;
+    height: auto;
+  }
+  main #stuck__in__the__middle .only__pics img:nth-of-type(2) {
+    margin-top: -7vh;
+  }
+  main #stuck__in__the__middle .pic-left__text {
+    flex-direction: column-reverse;
+    margin-top: 5vh;
+    text-align: center;
+  }
+  main #stuck__in__the__middle .pic-left__text p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  main #stuck__in__the__middle .pic-left__text img {
+    width: 50vw;
+    height: auto;
+    margin: 5vh auto 0 auto;
+  }
+  main #the-golden-bear {
+    width: 100%;
+    height: auto;
+  }
+  main #the-golden-bear article {
+    width: 50%;
+    padding-top: 5vh;
+    margin: 7vh auto 0 auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main #the-golden-bear article div p {
+    font-size: 1.5rem;
+  }
+  main #the-golden-bear article div h2 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  main #the-golden-bear article div:nth-of-type(2) {
+    width: 100%;
+  }
+  main #the-golden-bear article div:nth-of-type(2) p {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-top: 3vh;
+  }
+  main #the-golden-bear article div:nth-of-type(2) p:nth-of-type(2) {
+    font-size: 1rem;
+  }
+  main #the-golden-bear .pics {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  main #the-golden-bear .pics img {
+    width: 60vw;
+  }
+  main #the-golden-bear .pics img:nth-of-type(2) {
+    width: 40vw;
+    height: auto;
+    margin-top: -2vh;
+  }
+  main #the-poppy-bear {
+    width: 100%;
+    height: auto;
+  }
+  main #the-poppy-bear .rotate {
+    top: -7%;
+  }
+  main #the-poppy-bear article {
+    width: 50%;
+    margin: 5vh auto 0 auto;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main #the-poppy-bear article div p {
+    font-size: 1.5rem;
+  }
+  main #the-poppy-bear article div h2 {
+    width: 100%;
+    font-size: 3rem;
+  }
+  main #the-poppy-bear article div:nth-of-type(2) {
+    width: 100%;
+  }
+  main #the-poppy-bear article div:nth-of-type(2) p {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+  }
+  main #the-poppy-bear article div:nth-of-type(2) p:nth-of-type(2) {
+    font-size: 1rem;
+  }
+  main #the-poppy-bear .pics__two {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #the-poppy-bear .pics__two img {
+    width: 60vw;
+    height: auto;
+  }
+  main #the-poppy-bear .pics__two img:nth-of-type(2) {
+    width: 40vw;
+    height: auto;
+    margin: -10%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

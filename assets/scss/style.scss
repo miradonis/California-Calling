@@ -1,0 +1,752 @@
+/*=======================================
+Font: WorkSans,Lora
+Color: #fff / #000
+=======================================*/
+
+@font-face {
+    font-family: WorkSans-SemiBold;
+    src: url("../fonts/WorkSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Lora-SemiBold;
+    src: url("../fonts/Lora-SemiBold.ttf");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+h2 {
+    font-family: Lora-SemiBold;
+    font-size: 9rem;
+}
+
+p {
+    font-family: WorkSans-SemiBold;
+}
+
+button {
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1vh 1vw;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+    /*======================================
+                header
+    ======================================*/
+    header {
+        background-color: #000;
+        color: #fff;
+        padding-bottom: 20vh;
+        text-align: center;
+
+        .line {
+            width: 20vw;
+            height: 25vh;
+        }
+
+        article {
+            width: 30vw;
+            margin: 15vh auto 0 auto;
+
+            p {
+                font-size: 1.5rem;
+                margin: 2vh 0;
+            }
+
+            h1 {
+                font-family: Lora-SemiBold;
+                font-size: 9rem;
+                line-height: 8vh;
+
+                span {
+                    font-family: Lora-SemiBold;
+                    font-size: 9rem;
+                    color: black;
+                    -webkit-text-stroke: 1px white;
+                }
+            }
+        }
+
+        .bear__btn {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    main {
+        /*======================================
+                    section 1
+                    text & facts
+        ======================================*/
+        #text__and__facts {
+            background-color: #000;
+            position: relative;
+        
+            article {
+                width: 51vw;
+                padding: 10vh 0;
+                margin-left: 10vw;
+        
+                p {
+                    color: #fff;
+                    font-size: 8.8rem;
+                    word-spacing: 15px;
+                }
+        
+                &:nth-of-type(2) {
+                    display: flex;
+                    margin-top: 14vh;
+        
+                    .text {
+                        font-family: WorkSans-SemiBold;
+                        font-size: 2rem;
+                        margin-bottom: 1vh;
+                    }
+        
+                    .number {
+                        font-family: Lora-SemiBold;
+                        font-size: 7rem;
+                        margin-bottom: 17vh;
+                    }
+        
+                    /*
+                    ! bild ist nicht unter schrift
+                    */
+                    img {
+                        width: 83%;
+                        transform: translate(64%, -36%);
+                    }
+                }
+            }
+        
+        
+        }
+        
+        /*======================================
+                section 2
+                stuck in the middle
+        ======================================*/
+        #stuck__in__the__middle {
+            .first__pic {
+                width: 500px;
+                height: auto;
+                transform: translate(210%, -35%);
+            }
+        
+            .pic__text {
+                height: 60vh;
+                margin-top: 20vh;
+                display: flex;
+                justify-content: space-between;
+        
+                /*
+                ! code für bilder ist nicht gut
+                */
+        
+                img {
+                    width: 350px;
+                    height: 220px;
+        
+                    &:nth-of-type(1) {
+                        margin-left: 5vw;
+                    }
+        
+                    &:nth-of-type(2) {
+                        margin-top: 60vh;
+                    }
+                }
+        
+                div {
+                    width: 30%;
+        
+                    h2 {
+                        line-height: 9vh;
+                        margin-top: 30vh;
+                    }
+        
+                    p {
+                        font-size: 1.8rem;
+                        margin-top: 5vh;
+                        line-height: 4vh;
+                    }
+                }
+            }
+        
+            .only__pics {
+                margin-top: 50vh;
+                display: flex;
+                justify-content: space-around;
+                height: 40vh;
+        
+                img {
+                    width: 500px;
+                    height: 300px;
+        
+                    &:nth-of-type(2) {
+                        margin-top: 15vh;
+                    }
+                }
+            }
+        
+            .pic-left__text {
+                margin-top: 40vh;
+                display: flex;
+        
+                img {
+                    width: 350px;
+                    height: 220px;
+                }
+        
+                p {
+                    width: 31vw;
+                    font-size: 2rem;
+                    line-height: 4vh;
+                    margin: 10vh 0 0 18vw;
+                }
+            }
+        }
+        
+        /*======================================
+                section 3
+                the golden bear
+        ======================================*/
+        #the-golden-bear {
+            height: 150vh;
+            background-color: #000;
+        
+            article {
+                margin: 20vh 0;
+                display: flex;
+                justify-content: space-around;
+        
+                div {
+                    p {
+                        font-size: 2rem;
+                        color: white;
+                    }
+        
+                    h2 {
+                        color: #fff;
+                        width: 10vw;
+                    }
+        
+                    &:nth-of-type(2) {
+                        width: 20vw;
+        
+                        p {
+                            font-family: Lora-SemiBold;
+                            font-size: 3.5rem;
+                            width: 27vw;
+        
+                            &:nth-of-type(2) {
+                                font-family: WorkSans-SemiBold;
+                                margin-top: 5vh;
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .pics {
+                width: 60vw;
+                display: flex;
+                justify-content: center;
+                margin: 5vh auto 0 auto;
+                padding-bottom: 10vh;
+        
+                img {
+                    width: 800px;
+                    margin-left: -4vw;
+        
+                    &:nth-of-type(2) {
+                        position: relative;
+                        z-index: 1;
+                        height: 550px;
+                        width: 450px;
+                        margin-top: 20vh;
+                    }
+                }
+            }
+        }
+        
+        /*======================================
+                section 4
+                the poppy bear
+        ======================================*/
+        #the-poppy-bear {
+            position: relative;
+            overflow: hidden;
+
+            .rotate {
+                position: absolute;
+                right: -7%;
+                bottom: 80%;
+                width: 35vw;
+                animation: rotatePic 10s infinite linear;
+            }
+
+            @keyframes rotatePic {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+                    transform: rotate(359deg);
+                }
+            }
+        
+            article {
+                margin-top: 40vh;
+                padding: 20vh 0;
+                display: flex;
+                justify-content: space-around;
+        
+                div {
+                    p {
+                        font-size: 2rem;
+                    }
+        
+                    h2 {
+                        width: 10vw;
+                    }
+        
+                    &:nth-of-type(2) {
+                        width: 20vw;
+        
+                        p {
+                            font-family: Lora-Regular;
+                            font-size: 3.5rem;
+                            width: 25vw;
+        
+                            &:nth-of-type(2) {
+                                font-family: WorkSans-SemiBold;
+                                font-size: 2rem;
+                                margin-top: 5vh;
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .pics__two {
+                width: 60vw;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: center;
+                margin: 5vh auto 0 auto;
+                padding-bottom: 30vh;
+        
+                img {
+                    width: 800px;
+                    height: 800px;
+                    margin-right: -4vw;
+        
+                    &:nth-of-type(2) {
+                        height: 550px;
+                        width: 450px;
+                        margin-top: 20vh;
+                    }
+                }
+            }
+        }
+}
+
+/*======================================
+        footer
+======================================*/
+footer {
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10vh;
+
+    .text__left {
+        width: 24vw;
+        color: #fff;
+        margin: 15vh 0 0 10vw;
+
+        p {
+            font-size: 2rem;
+            margin-bottom: 4vh;
+
+            &:nth-of-type(2) {
+                font-family: Lora-SemiBold;
+                font-size: 3rem;
+                margin-bottom: 4vh;
+            }
+        }
+
+        button {
+            margin-bottom: 10vh;
+        }
+
+        div {
+            margin-bottom: 1vh;
+            img {
+                width: 30px;
+
+                &:nth-of-type(2) {
+                    margin: 0 1vw;
+                }
+            }
+        }
+    }
+
+    article {
+        margin-right: 8vw;
+        margin-bottom: 7vh;
+        img {
+            width: 130px;
+        }
+    }
+
+    .moving__text {
+        position: absolute;
+        right: -45%;
+        top: 40%;
+        background-color: #fff;
+        height: 8vh;
+        width: 120vw;
+        transform: skew(-40deg, 40deg);
+
+        p {
+            font-family: Lora-SemiBold;
+            font-size: 5rem;
+            animation: textToLeftAndRight 10s infinite linear;
+
+            @keyframes textToLeftAndRight {
+                0% {
+                    transform: translate(0%);
+                }
+
+                50% {
+                    transform: translate(30%);
+                }
+            
+                100% {
+                    transform: translate(0%);
+                }
+            }
+            
+            
+
+            span {
+                font-size: 5rem;
+                color: #fff;
+                -webkit-text-stroke: 1px #000;
+            }
+        }
+    }
+}
+
+/*
+*======================================
+            breakpoints
+*======================================
+*/
+
+@media only screen and (max-width: 576px) {
+    
+    h2 {
+        font-size: 4rem;
+    }
+
+
+    /*======================================
+                    header
+    ======================================*/
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .line {
+            margin: 0 auto;
+            height: 15vh;
+        }
+
+        article {
+            width: 50vw;
+            h1 {
+                font-size: 3rem;
+
+                span {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    main {
+    /*======================================
+                    section 1
+                    text & facts
+    ======================================*/
+    #text__and__facts {
+        
+        article {
+            width: 70%;
+            margin: 0 auto;
+            p {
+                font-size: 3rem;
+                text-align: center;
+            }
+
+            &:nth-of-type(2) {
+                flex-direction: column;
+                div {
+                    width: 60%;
+                    margin: 0 auto 0 auto;
+                    .text {
+                        font-size: 1.5rem;
+                    }
+
+                    .number {
+                        font-size: 4rem;
+                    }
+                }
+
+                img {
+                    opacity: .5;
+                    width: 63%;
+                    transform: translate(52%, -26%);
+                }
+            }
+        }
+    }
+
+    /*======================================
+                    section 2
+                    stuck in the middle
+    ======================================*/
+    #stuck__in__the__middle {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+        .first__pic {
+            width: 50vw;
+            transform: translate(0, -20%);
+        }
+
+        .pic__text {
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+
+            img {
+                width: 50vw;
+
+                &:nth-of-type(1) {
+                    margin: 0;
+                }
+
+                &:nth-of-type(2) {
+                    margin: 5vh auto 0 auto;
+                }
+            }
+
+            div {
+                margin: 0 auto;
+                text-align: center;
+                width: 60%;
+
+                h2 {
+                    margin-top: 7vh;
+                    line-height: 5vh;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .only__pics {
+            flex-direction: column;
+            margin-top: 19vh;
+
+            img {
+                width: 50vw;
+                height: auto;
+
+                &:nth-of-type(2) {
+                    margin-top: -7vh;
+                }
+            }
+        }
+
+        .pic-left__text {
+            flex-direction: column-reverse;
+            margin-top: 5vh;
+            text-align: center;
+
+            p {
+                width: 60%;
+                margin: 0 auto;
+                font-size: 1.5rem;
+            }
+
+            img {
+                width: 50vw;
+                height: auto;
+                margin: 5vh auto 0 auto;
+            }
+        }
+    }
+
+    /*======================================
+                    section 3
+                    the golden bear
+    ======================================*/
+    #the-golden-bear {
+        width: 100%;
+        height: auto;
+
+        article {
+            width: 50%;
+            padding-top: 5vh;
+            margin: 7vh auto 0 auto;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            div {
+                p {
+                    font-size: 1.5rem;
+                }
+
+                h2 {
+                    width: 100%;
+                    font-size: 3rem;
+                }
+
+                &:nth-of-type(2) {
+                    width: 100%;
+                    p {
+                        font-size: 1.5rem;
+                        width: 100%;
+                        margin-top: 3vh;
+
+                        &:nth-of-type(2) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pics {
+            flex-direction: column;
+            align-items: center;
+            width: 80%;
+
+            img {
+                width: 60vw;
+
+                &:nth-of-type(2) {
+                    width: 40vw;
+                    height: auto;
+                    margin-top: -2vh;
+                }
+            }
+        }
+    }
+
+    /*======================================
+                    section 4
+                    the poppy bear
+    ======================================*/
+    #the-poppy-bear {
+        width: 100%;
+        height: auto;
+
+        .rotate {
+            top: -7%;
+        }
+
+        article {
+            width: 50%;
+            margin: 5vh auto 0 auto;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            div {
+                p {
+                    font-size: 1.5rem;
+                }
+
+                h2 {
+                    width: 100%;
+                    font-size: 3rem;
+                }
+
+                &:nth-of-type(2) {
+                    width: 100%;
+                    p {
+                        width: 100%;
+                        font-size: 1.5rem;
+                        margin-top: 3vh;
+
+                        &:nth-of-type(2) {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pics__two {
+            width: 80%;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 60vw;
+                height: auto;
+
+                &:nth-of-type(2) {
+                    width: 40vw;
+                    height: auto;
+                    margin: -10%;
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+    }
+
+
+
+}
